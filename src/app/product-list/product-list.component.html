@@ -1,0 +1,24 @@
+<div style="background-color:red">
+<h2>Products</h2>
+<div *ngFor="let product of products">
+  {{ product.productId }} &nbsp;&nbsp;&nbsp; {{ product.productName }}
+</div>
+
+<div *ngFor="let product of products">
+  {{ product.productId }} &nbsp;&nbsp;&nbsp; {{ product.productName }}
+</div>
+</div>
+
+<table class="table table-dark table-striped" style="width:500px">
+<tr>
+  <th>Product ID</th>
+  <th>Name</th>
+  <th>Product Price</th>
+</tr>
+<tr *ngFor="let product of products">
+  <td>{{ product.productId }}</td>
+  <td>{{ product.productName }}</td>
+  <td>{{ product.price }}</td>
+  <td>{{ product.quantity }}</td>
+</tr>
+</table>
