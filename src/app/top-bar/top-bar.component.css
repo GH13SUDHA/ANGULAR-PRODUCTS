@@ -1,0 +1,13 @@
+h1{
+  color:hsl(9, 79%, 48%);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  
+}
+h3{
+  color:blue;
+  text-align:right ;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 25px;
+}
