@@ -6,7 +6,7 @@ export interface product{
     expirydate: String;
 }
 
-export const products =[
+export const productFromList =[
   
     {
         "productId": "P001",

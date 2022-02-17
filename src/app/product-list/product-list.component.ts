@@ -1,23 +1,23 @@
-import { Component } from '@angular/core';
-
-import { products } from '../productsFile';
+import { Component, OnInit } from '@angular/core';
+import { productFromList } from '../products';
 
 @Component({
   selector: 'app-product-list',
   templateUrl: './product-list.component.html',
-  styleUrls: ['./product-list.component.css'],
+  styleUrls: ['./product-list.component.ts']
 })
-export class ProductListComponent {
-  products = products;
+export class ProductListComponent implements OnInit {
+  products = productFromList;
 
-  share() {
-    window.alert('The product has been shared!');
+  addToCart() {
+    window.alert('The product has been added!');
+  }
+  onnotify(){
+    window.alert('Notify me')
+  }
+  constructor() { }
+
+  ngOnInit() {
   }
 
-  buy() {
-    alert('The product has been added to cart.!');
-  }
-  onNotify() {
-    alert('You will be notified when the product goes on sale');
-  }
 }
