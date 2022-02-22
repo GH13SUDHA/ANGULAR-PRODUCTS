@@ -1,6 +1,25 @@
 h2{
-  color :brown
+  
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align-last: center;
+  font-size:35px;
+  color: rgb(57, 26, 88);
+  
 }
 a{
-  color:black
+  
+  color:rgb(30, 30, 206);
+  font-size: 35px;
+  font-family:monospace;
+  font-style:normal;
+  ;
+  
+
+  
+}
+button{
+  color:black;
+  background-color:rgb(23, 161, 23);
+  font-size:20px ;
+  
 }
